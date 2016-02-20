@@ -23,17 +23,17 @@
 					case 0:
 						echo '<li role="presentation" class="active"><a href="index.php"><i class="fa fa-book"></i> Sobre </a></li>';
 						echo '<li role="presentation" ><a href="contact.php"><i class="fa fa-phone"></i> Contato </a></li>';
-						echo '<li role="presentation" ><a href="documents.php"><i class="fa fa-folder-open"></i> Trabalhos </a></li>';
+						echo '<li role="presentation" ><a href="documents.php"><i class="fa fa-folder-open"></i> Textos </a></li>';
 						break;
 					case 1:
 						echo '<li role="presentation" ><a href="index.php"><i class="fa fa-book"></i> Sobre </a></li>';
 						echo '<li role="presentation" class="active"><a href="contact.php"><i class="fa fa-phone"></i> Contato </a></li>';
-						echo '<li role="presentation" ><a href="documents.php"><i class="fa fa-folder-open"></i> Trabalhos </a></li>';
+						echo '<li role="presentation" ><a href="documents.php"><i class="fa fa-folder-open"></i> Textos </a></li>';
 						break;
 					case 2:
 						echo '<li role="presentation" ><a href="index.php"><i class="fa fa-book"></i> Sobre </a></li>';
 						echo '<li role="presentation" ><a href="contact.php"><i class="fa fa-phone"></i> Contato </a></li>';
-						echo '<li role="presentation" class="active"><a href="documents.php"><i class="fa fa-folder-open"></i> Trabalhos </a></li>';
+						echo '<li role="presentation" class="active"><a href="documents.php"><i class="fa fa-folder-open"></i> Textos </a></li>';
 						break;
 				}
 			?>
@@ -47,7 +47,7 @@
 					</a>
 			</li>
 			<li role="presentation">
-					<a href="https://br.linkedin.com/in/harturbbrito">
+					<a href="https://br.linkedin.com/in/hartur92">
 						<font size="4">
 							<i class="fa fa-linkedin-square"></i>
 						</font>
