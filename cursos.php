@@ -21,7 +21,7 @@
 								<li>Curso de lógica da programação com carga de 30 horas. Instituição: <a href="http://www.iteci.com.br/painel.asp">ITECI</a>.</li>
 								<li>Curso de Excel avançado com carga de 30 horas. Instituição: <a href="http://www.iteci.com.br/painel.asp">ITECI</a>.</li>
 								<li>Curso básico de administração de pessoal com carga de 60 horas. Instituíção: <a href="https://www.facebook.com/PoliJuniorEngenharia">POLI Júnior (UPE)</a>.</li>
-								<li>Curso de inglês nível 1 Intermediário. Instituíção: The Special English School.</li>
+								<li>Curso de inglês em andamento. Nível 1 Intermediário. Instituíção: The Special English School.</li>
 							</ul>
 						</div>
 					</div>
