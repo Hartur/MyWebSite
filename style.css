@@ -1,41 +1,34 @@
 body{
 	margin: 10px;
-	font-size: 150%;
-	
-	
-	background: url(imgs/bgImg.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+	background: url(imgs/bgImg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	word-wrap: break-word;
 }
 
-
-
-.listDetails ul li{
-	margin: 15px;
+.nav-tabs a:hover{
+	background: black;
 }
 
-.listDetailsInner ul li{
-	margin: 7px;
-}
-
-.documentsList table tr td{
+.box{
+	background: white;
+	border-radius: 0px 0px 7px 7px;
 	padding: 15px;
-	font-size: 14px;
 }
 
-.rcorners{
-    border-radius: 7px;
-    padding: 20px;
-    background-color: #FAFAFA;
-    min-height: 255px;
+.box ul li{
+	padding: 5px;
 }
 
-.box {
-    padding: 0 5px 0 5px;
+.inversebox{
+	background: #FAFAFA;
+	border-radius: 7px 7px 0px 0px;
 }
 
-.homeResumo{
-	padding: 20px 20px 20px 40px;
+.roundedBox{
+	background: white;
+	border-radius: 7px;
+	padding: 15px;
 }
