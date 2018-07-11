@@ -1,79 +1,10 @@
-<html>
+<h1>Contact</h1>
 
-
-<head>
-	<meta http-equiv="Content-Type" content="text/html, charset=utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="author" content="Hartur Barreto Brito">
-
-	<title>Hartur</title>
-
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-	<link rel="icon" href="imgs/logo.png" type="image/png" sizes="16x16">
-	<link rel="stylesheet" href="style.css">
-	<script src="control.js"></script>
-</head>
-
-
-<body class="container">
-
-	<nav class="navbar navbar-inverse">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
-					<span class="sr-only">Toggle navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="index.html">Hartur</a>
-			</div>
-
-			<div class="collapse navbar-collapse" id="menu">
-				<ul class="nav navbar-nav">
-					<li role="presentation"><a href="index.html"><i class="fa fa-user" aria-hidden="true"></i> Sobre </a></li>
-					<li role="presentation" class="active"><a href="contact.html"><i class="fa fa-phone"></i> Contato </a></li>
-					<li role="presentation"><a href="documents.html"><i class="fa fa-folder-open"></i> Trabalhos </a></li>
-					<li role="presentation"><a href="http://lattes.cnpq.br/5514434560442605"><i class="fa fa-file-text-o"></i> Lattes </a></li>
-					<li role="presentation">
-						<a href="https://github.com/Hartur">
-							<font size="4">
-								<i class="fa fa-github"></i>
-							</font>
-						</a>
-					</li>
-					<li role="presentation">
-						<a href="https://br.linkedin.com/in/harturbbrito">
-							<font size="4">
-								<i class="fa fa-linkedin-square"></i>
-							</font>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-	</nav>
-
-	<div class="col-xs-12 col-md-2 text-center">
-		<img class="img-responsive center-block" src="imgs/img.png" height="140" width="140" alt="Hartur Barreto Brito">
-		<font color="white">
-			<h4>Hartur Barreto Brito</h4>
-			<h5>23 anos</h5>
-			<h5>Recife - PE</h5>
-		</font>
-	</div>
-
-	<div class="col-xs-12 col-md-10 tab-content roundedBox">
-		<h4>Contato</h4>
-		<ul>
-			<li><i class="fa fa-envelope"></i> harturbarreto91@gmail.com</li>
-			<li><i class="fa fa-skype"></i> hartur.brito</li>
-		</ul>
-	</div>
-</body>
-</html>
+<ul class="list-unstyled">
+    <li>
+        <b> <i class="fas fa-envelope"></i> Email:</b> <a href="mailto:{{email}}"> {{email}}</a>
+    </li>
+    <li>
+        <b> <i class="fas fa-phone"></i> Phone:</b> <a href="tel: {{phone}}"> {{phone}}</a>
+    </li>
+</ul>
