@@ -1,33 +1,12 @@
 <h1>Documents</h1>
 
-<table class="table">
-    <tr>
-        <th>File Name</th>
-        <th>File Size</th>
-        <th>Date</th>
-    </tr>
-
-    <tr>
-        <td><a href="documents/LTE_LTEA.pdf"><i class="fa fa-file-pdf-o"></i> LTE_LTEA.pdf</a></td>
-        <td>157K</td>
-        <td>September 2014</td>
-    </tr>
-
-    <tr>
-        <td><a href="documents/DataStructuresIntro.pdf"><i class="fa fa-file-pdf-o"></i> DataStructuresIntro.pdf</a></td>
-        <td>311K</td>
-        <td>May 2015</td>
-    </tr>
-
-    <tr>
-        <td><a href="documents/Z3TheoremProver.pdf"><i class="fa fa-file-pdf-o"></i> Z3TheoremProver.pdf</a></td>
-        <td>159K</td>
-        <td>June 2015 </td>
-    </tr>
-
-    <tr>
-        <td><a href="documents/SysadminUbuntu.pdf"><i class="fa fa-file-pdf-o"></i> SysadminUbuntu.pdf</a></td>
-        <td>113K</td>
-        <td>July 2015</td>
-    </tr>
-</table>
+<div ng-repeat="document in documents" class="card" style="margin-bottom: 10px;">
+    <div class="card-body">
+        <a href="{{document.link}}"><h5 class="card-title">{{document.name}}</h5></a>
+        <h6 class="card-subtitle mb-2 text-muted">{{document.publish}}</h6>
+        <p class="card-text">{{document.description}}</p>
+        <div ng-if="document.details">
+            <p>For more information, access <a href="{{document.details}}">{{document.details}}</a></p>
+        </div>
+    </div>
+</div>

@@ -2,28 +2,47 @@
 <p>In this section you'll find all information about me.</p>
 
 <h2>School Education</h2>
-<ul>
-    <li>Test</li>
-</ul>
+    <div style="margin-bottom: 20px;">
+        <div ng-repeat="school in schoolEducation" class="card" style="margin-bottom: 10px;">
+            <div class="card-body">
+                <h5 class="card-title">{{school.level}}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Finished on {{school.finishedOn}} at {{school.institution}}</h6>
+                <p class="card-text" ng-if="school.link">For more informations: <a href="{{school.link}}">{{school.link}}</a></p>
+            </div>
+        </div>
+    </div>
 
-<h2>Researchs</h2>
-<ul>
-    <li>Test</li>
-</ul>
+<h2>Academic Activities</h2>
+    <div style="margin-bottom: 20px;">
+        <div ng-repeat="activity in academicActivities" class="card" style="margin-bottom: 10px;">
+            <div class="card-body">
+                <h5 class="card-title">{{activity.name}}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">{{activity.from}} - {{activity.through}}</h6>
+                <p class="card-text">{{activity.description}}</p>
+            </div>
+        </div>
+    </div>
 
 <h2>Job Experience</h2>
-<ul>
-    <li>Test</li>
-</ul>
+    <div style="margin-bottom: 20px;">
+        <div ng-repeat="job in jobs" class="card" style="margin-bottom: 10px;">
+            <div class="card-body">
+                <h5 class="card-title">{{job.company}}</h5>
+                <h6 class="card-subtitle mb-2 text-muted">{{job.from}} - {{job.through}}</h6>
+                <p class="card-text">{{job.description}}</p>
+                <p class="card-text" ng-if="job.link">For more informations: <a href="{{job.link}}">{{job.link}}</a></p>
+            </div>
+        </div>
+    </div>
 
 <h2>Links</h2>
-<ul>
-    <li>
-        <a class="nav-link" href="https://github.com/Hartur">
-            github.com/Hartur
-        </a>
-    </li>
-    <li>
-        <a class="nav-link" href="http://lattes.cnpq.br/5514434560442605"><i class="fa fa-file-text-o"></i> Lattes CNPQ </a>
-    </li>
-</ul>
+    <ul>
+        <li>
+            <a class="nav-link" href="https://github.com/Hartur">
+                github.com/Hartur
+            </a>
+        </li>
+        <li>
+            <a class="nav-link" href="http://lattes.cnpq.br/5514434560442605"><i class="fa fa-file-text-o"></i> Lattes CNPQ </a>
+        </li>
+    </ul>
