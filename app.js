@@ -204,7 +204,7 @@ function clickMenu(tab){
             $('#'+this).removeClass('active');
         }
     });
-    if($('#navbarsMenu').is(':visible')) {
+    if($('#togglerbtn').is(':visible') && $('#navbarsMenu').is(':visible')) {
         $('#togglerbtn').click();
     }
 }
