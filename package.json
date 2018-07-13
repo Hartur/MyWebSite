@@ -1,0 +1,26 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hartur/MyWebSite.git"
+  },
+  "author": "Hartur Barreto Brito",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hartur/MyWebSite/issues"
+  },
+  "homepage": "https://hartur.github.io/MyWebSite",
+  "dependencies": {
+    "angular": "^1.4.3",
+    "angular-route": "^1.4.7",
+    "bootstrap": "^4.1.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.3.1"
+  }
+}
