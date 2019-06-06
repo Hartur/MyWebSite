@@ -57,16 +57,16 @@ app.controller('AboutController', function($scope){
             description: 'Monitor da matéria Estrutura de dados utilizando Java para demonstrar. Meu papel era propor desafios e ajudar os alunos com suas dúvidas.'
         },
         {
-            name: 'CAPES Scholarship Holder',
+            name: 'Bolsista CAPES',
             from: 'ago 2012',
             through: 'ago 2013',
-            description: 'Title of the research: Development and application of translucid optical networks performance forecast models.'
+            description: 'Título do projeto: Desenvolvimento e aplicação de modelos de previsão de desempenho para redes ópticas translúcidas'
         },
         {
-            name: 'CAPES Scholarship Holder',
+            name: 'Bolsista CAPES',
             from: 'ago 2013',
             through: 'ago 2014',
-            description: 'Title of the research: Usage of crosstalk and WSS quantification analytical models.'
+            description: 'Título do projeto: Utilização de modelos analíticos para quantificação de crosstalk em WSSs.'
         }
     ];
     
