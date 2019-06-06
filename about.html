@@ -1,55 +1,56 @@
 <h1>Sobre</h1>
 <p>Aqui serão encontrados dados sobre minha carreira acadêmica e profissional</p>
 
-<h2>Atividades escolares</h2>
-    <div style="margin-bottom: 20px;">
-        <div ng-repeat="school in schoolEducation" class="card" style="margin-bottom: 10px;">
-            <div class="card-body">
-                <h5 class="card-title">{{school.level}}</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Finalizado em {{school.finishedOn}} na {{school.institution}}</h6>
-                <p class="card-text" ng-if="school.link">Para mais informações: <a href="{{school.link}}">{{school.link}}</a></p>
-            </div>
+<h2>Profissional</h2>
+<div style="margin-bottom: 20px;">
+    <div ng-repeat="job in jobs" class="card" style="margin-bottom: 10px;">
+        <div class="card-body">
+            <h5 class="card-title">{{job.company}}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{job.from}} - {{job.through}}</h6>
+            <p class="card-text">{{job.description}}</p>
+            <p class="card-text" ng-if="job.link">Para mais informações: <a href="{{job.link}}">{{job.link}}</a></p>
         </div>
     </div>
+</div>
 
 <h2>Atividades Acadêmicas</h2>
-    <div style="margin-bottom: 20px;">
-        <div ng-repeat="activity in academicActivities" class="card" style="margin-bottom: 10px;">
-            <div class="card-body">
-                <h5 class="card-title">{{activity.name}}</h5>
-                <h6 class="card-subtitle mb-2 text-muted">{{activity.from}} - {{activity.through}}</h6>
-                <p class="card-text">{{activity.description}}</p>
-            </div>
+<div style="margin-bottom: 20px;">
+    <div ng-repeat="activity in academicActivities" class="card" style="margin-bottom: 10px;">
+        <div class="card-body">
+            <h5 class="card-title">{{activity.name}}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{activity.from}} - {{activity.through}}</h6>
+            <p class="card-text">{{activity.description}}</p>
         </div>
     </div>
+</div>
 
-<h2>Profissional</h2>
-    <div style="margin-bottom: 20px;">
-        <div ng-repeat="job in jobs" class="card" style="margin-bottom: 10px;">
-            <div class="card-body">
-                <h5 class="card-title">{{job.company}}</h5>
-                <h6 class="card-subtitle mb-2 text-muted">{{job.from}} - {{job.through}}</h6>
-                <p class="card-text">{{job.description}}</p>
-                <p class="card-text" ng-if="job.link">Para mais informações: <a href="{{job.link}}">{{job.link}}</a></p>
-            </div>
+<h2>Atividades escolares</h2>
+<div style="margin-bottom: 20px;">
+    <div ng-repeat="school in schoolEducation" class="card" style="margin-bottom: 10px;">
+        <div class="card-body">
+            <h5 class="card-title">{{school.level}}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Finalizado em {{school.finishedOn}} na {{school.institution}}</h6>
+            <p class="card-text" ng-if="school.link">Para mais informações: <a
+                    href="{{school.link}}">{{school.link}}</a></p>
         </div>
     </div>
+</div>
 
 <h2>Links</h2>
-    <ul>
-        <li>
-            <a class="nav-link" href="https://github.com/Hartur">
-                github.com/Hartur 
-            </a>
-        </li>
-        <li>
-            <a class="nav-link" href="http://lattes.cnpq.br/5514434560442605">
-                Lattes CNPQ
-            </a>
-        </li>
-        <li>
-            <a class="nav-link" href="https://www.linkedin.com/in/hartur92/">
-                linkedin.com/in/hartur92/
-            </a>
-        </li>
-    </ul>
+<ul>
+    <li>
+        <a class="nav-link" href="https://github.com/Hartur">
+            github.com/Hartur
+        </a>
+    </li>
+    <li>
+        <a class="nav-link" href="http://lattes.cnpq.br/5514434560442605">
+            Lattes CNPQ
+        </a>
+    </li>
+    <li>
+        <a class="nav-link" href="https://www.linkedin.com/in/hartur92/">
+            linkedin.com/in/hartur92/
+        </a>
+    </li>
+</ul>

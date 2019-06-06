@@ -2,7 +2,9 @@
 
 <div ng-repeat="document in documents" class="card" style="margin-bottom: 10px;">
     <div class="card-body">
-        <a href="{{document.link}}"><h5 class="card-title">{{document.name}}</h5></a>
+        <a href="{{document.link}}">
+            <h5 class="card-title">{{document.name}}</h5>
+        </a>
         <h6 class="card-subtitle mb-2 text-muted">{{document.publish}}</h6>
         <p class="card-text">{{document.description}}</p>
         <div ng-if="document.details">
