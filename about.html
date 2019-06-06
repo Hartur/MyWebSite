@@ -1,18 +1,18 @@
-<h1>About</h1>
-<p>In this section you'll find all information about me.</p>
+<h1>Sobre</h1>
+<p>Aqui serão encontrados dados sobre minha carreira acadêmica e profissional</p>
 
-<h2>School Education</h2>
+<h2>Atividades escolares</h2>
     <div style="margin-bottom: 20px;">
         <div ng-repeat="school in schoolEducation" class="card" style="margin-bottom: 10px;">
             <div class="card-body">
                 <h5 class="card-title">{{school.level}}</h5>
-                <h6 class="card-subtitle mb-2 text-muted">Finished on {{school.finishedOn}} at {{school.institution}}</h6>
-                <p class="card-text" ng-if="school.link">For more informations: <a href="{{school.link}}">{{school.link}}</a></p>
+                <h6 class="card-subtitle mb-2 text-muted">Finalizado em {{school.finishedOn}} na {{school.institution}}</h6>
+                <p class="card-text" ng-if="school.link">Para mais informações: <a href="{{school.link}}">{{school.link}}</a></p>
             </div>
         </div>
     </div>
 
-<h2>Academic Activities</h2>
+<h2>Atividades Acadêmicas</h2>
     <div style="margin-bottom: 20px;">
         <div ng-repeat="activity in academicActivities" class="card" style="margin-bottom: 10px;">
             <div class="card-body">
@@ -23,14 +23,14 @@
         </div>
     </div>
 
-<h2>Job Experience</h2>
+<h2>Profissional</h2>
     <div style="margin-bottom: 20px;">
         <div ng-repeat="job in jobs" class="card" style="margin-bottom: 10px;">
             <div class="card-body">
                 <h5 class="card-title">{{job.company}}</h5>
                 <h6 class="card-subtitle mb-2 text-muted">{{job.from}} - {{job.through}}</h6>
                 <p class="card-text">{{job.description}}</p>
-                <p class="card-text" ng-if="job.link">For more informations: <a href="{{job.link}}">{{job.link}}</a></p>
+                <p class="card-text" ng-if="job.link">Para mais informações: <a href="{{job.link}}">{{job.link}}</a></p>
             </div>
         </div>
     </div>
